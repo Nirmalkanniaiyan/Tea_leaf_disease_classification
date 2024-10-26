@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".LoginActivity">
+
+    <!-- Image for login -->
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        app:srcCompat="@drawable/tea_imagelogin"
+        android:contentDescription="Login Image" />
+
+    <!-- TextView for title -->
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="Login"
+        android:layout_marginBottom="50dp"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+    <!-- EditText for name/email -->
+    <EditText
+        android:id="@+id/email_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Your Email"
+        android:textColor="#05ACA3"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:background="@drawable/button_background_green2" />
+
+    <!-- EditText for password -->
+    <EditText
+        android:id="@+id/password_login"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="12dp"
+        android:hint="Password"
+        android:textColor="#05ACA3"
+        android:layout_marginBottom="10dp"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:background="@drawable/button_background_green2" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:id="@+id/login_button_login"
+        android:text="Login"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/button_background_green1" />
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
